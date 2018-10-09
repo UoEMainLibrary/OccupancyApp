@@ -50,6 +50,8 @@ function showToolTip(id, coords, text) { // Show a tooltip
 function init() {
   tool_tip = d3.select('body').append('div')
     .style('position', 'absolute')
+    .style('top', 0)
+    .style('left', 0)
     .style('background-color', 'white')
     .style('font-family', font_family)
     .style('font-size', marker_font_size + "px")

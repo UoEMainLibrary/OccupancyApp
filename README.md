@@ -1,6 +1,8 @@
 # OccupancyApp
 Main Library Occupancy Traffic Light System
 
+There are a few old mockups [here](https://lac-edwebtools.is.ed.ac.uk/discovered/occupy/).
+
 Uses [D3](https://github.com/d3/d3) v.4 (not 5!). Designed to be 100px height (ok to change) and will be 90% of width (max 1200px).
 It requires the following parameters being set (default values):
 
@@ -38,6 +40,11 @@ It expects a json file set in `json_file` with the structure:
   {"nr":3,"color":"purple","min":2185,"max":2300}]
 }
 ```
+
+## Currently used
+* [Library](https://www.ed.ac.uk/information-services/library-museum-gallery)
+* [Main Library](https://www.ed.ac.uk/information-services/library-museum-gallery/using-library/lib-locate/main-lib)
+* [Main Library opening hours](https://www.ed.ac.uk/information-services/library-museum-gallery/using-library/library-opening/main-library)
 
 # TODO
 * Webpack?

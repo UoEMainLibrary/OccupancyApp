@@ -4,6 +4,41 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<script type='text/javascript'>
+
+
+/* General */
+var json_file = 'test.json';
+var width = .9;
+var max_width = 1200;
+var height = 100;
+var cut_off = .5;
+var tooltip_shift = -50;
+
+var textual = [
+  { 'text': 'Not busy', 'tip': 'You will find a choice of spaces in the library.' },
+  { 'text': 'Busy', 'tip':'The library is busy. You will find a space but you may not find your preferred seat.'},
+  { 'text': 'Very busy', 'tip': 'The library is very busy. It will be difficult to find a space.'},
+  { 'text': 'Packed!', 'tip': 'There are very few spare spaces left within the library and it will take some time to find a seat.'},];
+
+/* Style */
+var font_family = "'Source Sans Pro', sans-serif";
+var line_width = 25;
+var font_size = 30;
+var marker_font_size = 15;
+var marker_line_height = 22.5;
+
+var arrow_width = font_size - 2;
+var arrow_y_shift = 10;
+var arrow_slope = line_width/2;
+var arrow_color = 'black';
+
+var small_arrows = 3;
+var small_arrow_width = line_width/2;
+var small_arrow_height = small_arrow_width/2;
+
+</script>
+
 <script type='text/javascript' src="occupancy_app.js"></script>
 <style>
 

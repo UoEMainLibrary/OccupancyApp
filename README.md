@@ -46,5 +46,7 @@ It expects a json file set in `json_file` with the structure:
 * [Main Library](https://www.ed.ac.uk/information-services/library-museum-gallery/using-library/lib-locate/main-lib)
 * [Main Library opening hours](https://www.ed.ac.uk/information-services/library-museum-gallery/using-library/library-opening/main-library)
 
+There are also four large plasma screens in the Main Library displaying the occupancy data and there’s also one in the Law Library.
+
 # TODO
 * Webpack?
